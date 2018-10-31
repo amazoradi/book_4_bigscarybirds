@@ -60,3 +60,4 @@ const rhea = new bigScaryBird(darwinRhea)
 kingPenguin.toString()
 andeanCondor.toString()
 rhea.toString()
+
