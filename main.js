@@ -26,27 +26,25 @@ class bigScaryBird {
 }
 
 // creating bird data
-const kingPenguin = new bigScaryBird({
+const kingPenguinProps = {
   height : "3 ft 3 in",
   flightless : true,
   isExtinct : false,
   name : "King Penguin",
   typeOfTravel : "swim",
   Speed : "6 mph"
-})
+}
 
-const andeanCondor = new bigScaryBird({
+const andeanCondorProps = {
   height : "10 ft 10 in",
   flightless : false,
   isExtinct : false,
   name : "Andean Condor",
   typeOfTravel : "fly",
   Speed : "87 mph"
-})
+}
 
-
-// wanted to try it a different way
-const darwinRhea = {
+const darwinRheaProps = {
   height : "3 ft 3 in",
   flightless : true,
   isExtinct : false,
@@ -55,7 +53,9 @@ const darwinRhea = {
   Speed : "37 mph"
 }
 
-const rhea = new bigScaryBird(darwinRhea)
+const kingPenguin = new bigScaryBird(kingPenguinProps)
+const andeanCondor = new bigScaryBird(andeanCondorProps)
+const rhea = new bigScaryBird(darwinRheaProps)
 
 kingPenguin.toString()
 andeanCondor.toString()
